@@ -1,0 +1,41 @@
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 150px;
+}
+.social .social-col{
+    min-width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.social div.icon-img{
+    background-color: rgba(255,255,255,.55);
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 50%;
+    color: #415D43;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+i {
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: #5ba092;
+}
+
+.container h3 {
+    font-size: 20px;
+}

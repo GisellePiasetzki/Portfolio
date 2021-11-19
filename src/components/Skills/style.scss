@@ -1,0 +1,22 @@
+#minhas-skills{
+    padding: 60px;
+}
+
+#minhas-skills .cards-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#minhas-skills .cards-container .skill-card{
+    background-color: #415D43;
+    border: 1px solid rgba(255,255,255,.55);
+    border-radius: 7px;
+    padding: 20px;
+
+}
+
+#minhas-skills .cards-container .skill-card i {
+    font-size: 45px;
+    color: rgba(255,255,255,.55);
+}
